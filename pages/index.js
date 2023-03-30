@@ -15,7 +15,9 @@ export default function Home() {
       </Head>
       <Link href={'/blog'}>Blog</Link>
 
-      <Image src={'/newphoto.jpg'} width={400} height={400} alt='Some image'></Image>
+      {/* <Image src={'/newphoto.jpg'} width={400} height={400} alt='Some image'></Image> */}
+
+      <button className="btn btn-primary text-4xl">Button</button>
     </>
   )
 }
