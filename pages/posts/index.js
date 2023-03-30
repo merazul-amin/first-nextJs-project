@@ -1,11 +1,14 @@
 import React from 'react';
+import Post from '../components/Post/Post';
 
 const Posts = ({ posts }) => {
-    console.log(posts);
     return (
         <div>
             <h1>This is Post Page</h1>
             <h1>Number of Post Length {posts.length}</h1>
+            {
+                posts.map(post => <Post post={post} key={post.id}></Post>)
+            }
         </div>
     );
 };
