@@ -17,7 +17,8 @@ export default function Home() {
 
       {/* <Image src={'/newphoto.jpg'} width={400} height={400} alt='Some image'></Image> */}
 
-      <button className="btn btn-primary text-4xl">Button</button>
+      {/* <button className="btn btn-primary text-4xl">Button</button> */}
+
     </>
   )
 }
